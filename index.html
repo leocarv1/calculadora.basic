@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        Teste de calculadora
+    </header>
+
+
+    <section>
+        <div>
+            Qual operação deseja realizar:
+            <input type="radio" name="radcal" id="soma" checked>
+            <label for="soma">Adição</label>
+            <input type="radio" name="radcal" id="divisao">
+            <label for="divisao">Divisão</label>
+            <input type="radio" name="radcal" id="subtracao">
+            <label for="subtracao">Subtração</label>
+            <input type="radio" name="radcal" id="mult">
+            <label for="mult">Multiplicação</label>
+        </div>
+        <div>
+            <br>Digite o primeiro número: <input type="number" name="num1" id="num1"> <br>
+            <br>Digite o segundo número: <input type="number" name="num2" id="num2"> <br>
+            <br><input type="button" value="calcular" onclick="Calcular()"><br>
+
+        </div>
+        <br><div id="res">Resultado</div>
+    </section>
+
+
+    <footer>
+        <p>&copy; Leonardo Carvalho</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
